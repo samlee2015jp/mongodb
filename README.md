@@ -13,3 +13,8 @@ mongod --config /usr/local/etc/mongod.conf --fork
 brew services list
 ps aux | grep -v grep | grep mongod
 ```
+
+To begin using MongoDB, connect a mongo shell to the running instance. From a new terminal, issue the following:
+```
+mongo
+```
